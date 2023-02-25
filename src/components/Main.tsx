@@ -16,13 +16,12 @@ const Main = () => {
             I'm Mateusz Grzybowski
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
-            I'm a
             <TypeAnimation
-              sequence={['Junior Frontend Developer', 1000]}
+              sequence={[" I'm a Junior Frontend Developer", 1000]}
               wrapper="div"
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: '16px', paddingLeft: '5px' }}
+              style={{ fontSize: '27px', paddingLeft: '5px' }}
             />
           </h2>
           <div className="flex justify-between pt-6 w-full max-w-[200px]">
